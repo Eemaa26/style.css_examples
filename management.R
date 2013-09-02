@@ -20,9 +20,10 @@ knit2html(input=file.path(xname, "minimal template.Rmd"), output = file.path(xna
 markdownToHTML(file.path(xname, "minimal template.md"), file.path(xname, "minimal template.html"), 
     stylesheet=file.path(xname, "css/style.css"))
 
+
+## copy to website
 delete(file.path("C:/Users/trinker/GitHub/trinker.github.com", "style.css_examples"))
 folder(folder.name=file.path("C:/Users/trinker/GitHub/trinker.github.com", "style.css_examples"))
-## copy to website
 loc <- file.path(getwd(), "style.css_examples")
 fls2copy <- file.path(loc, dir(loc))
 file.copy(fls2copy, 

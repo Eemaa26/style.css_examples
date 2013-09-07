@@ -49,55 +49,32 @@ hljs.initHighlightingOnLoad();
 
 
 <style type="text/css">
+h1 { font-family:Serif; text-align: center; font-face: times new roman ; font-size: 18px; color: #000000; text-transform:capitalize; font-weight:bold; }
+
+h2 { font-family:Serif; text-align: left; font-face: times new roman ; font-size: 18px; color: #000000; text-transform:capitalize; font-weight:bold; }
+
+h3 { font-family:Serif; text-align: left; font-face: times new roman ; font-size: 18px; color: #000000; font-weight:bold; }
+
+h4 { font-family:Serif; text-align: left; font-face: times new roman ; font-size: 18px; color: #000000; font-style:italic; font-weight:bold;}
+
+h5 { font-family:Serif; text-align: left; font-face: times new roman ; font-size: 18px; color: #000000; font-style:italic}
+
+h6 { font-family:Serif; text-align: center; font-face: times new roman ; font-size: 18px; color: #000000; text-transform:capitalize; }
+
 body, td {
-   font-family: sans-serif;
+   font-family:Serif;
+   font-face: times new roman ;
+   text-align: justify ;
    background-color: white;
-   font-size: 12px;
+   font-size: 18px;
    margin: 8px;
 }
 
-tt, code, pre {
-   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+body {
+    width: 70%;
+    margin: 5em auto auto 7em;
 }
 
-h1 { 
-   font-size:2.2em; 
-}
-
-h2 { 
-   font-size:1.8em; 
-}
-
-h3 { 
-   font-size:1.4em; 
-}
-
-h4 { 
-   font-size:1.0em; 
-}
-
-h5 { 
-   font-size:0.9em; 
-}
-
-h6 { 
-   font-size:0.8em; 
-}
-
-a:visited {
-   color: rgb(50%, 0%, 50%);
-}
-
-pre {	
-   margin-top: 0;
-   max-width: 95%;
-   border: 1px solid #ccc;
-   white-space: pre-wrap;
-}
-
-pre code {
-   display: block; padding: 0.5em;
-}
 
 code.r, code.cpp {
    background-color: #F8F8F8;
@@ -108,17 +85,14 @@ table, td, th {
 }
 
 blockquote {
-   color:#666666;
    margin:0;
-   padding-left: 1em;
+   padding-left: 50px;
    border-left: 0.5em #EEE solid;
 }
 
 hr {
    height: 0px;
    border-bottom: none;
-   border-top-width: thin;
-   border-top-style: dotted;
    border-top-color: #999999;
 }
 
@@ -131,7 +105,7 @@ hr {
    }
 
    body { 
-      font-size:12pt; 
+      font-size:18pt; 
       max-width:100%; 
    }
        
@@ -157,21 +131,70 @@ hr {
       max-width: 100% !important; 
    }
 
-   @page :left { 
-      margin: 15mm 20mm 15mm 10mm; 
-   }
-     
-   @page :right { 
-      margin: 15mm 10mm 15mm 20mm; 
-   }
+}
 
-   p, h2, h3 { 
-      orphans: 3; widows: 3; 
-   }
 
-   h2, h3 { 
-      page-break-after: avoid; 
-   }
+@page { 
+   @top-left{
+       font-family: Helvetica, Arial, sans-serif; 
+       font-size: 18pt; 
+       font-weight: bolder; 
+       content: "XHTML-Print: A Proposal --- August 25, 2000"; 
+   } 
+ } 
+
+.icon img {
+  float: right;
+  border: 1px solid #ccc;
+}
+
+.index .internal {display: none;}
+
+ul.index li {margin-bottom: 0.5em; clear: both;}
+
+div, iframe {
+    margin: 0 auto;
+	display:block;
+}
+
+.post img { display: block; margin-left: auto; margin-right: auto ; }
+
+.hangingindent {
+    padding-left: 50px ;
+    text-indent: -50px ;
+}
+
+.tab { text-indent: 50px; }
+
+.block { 
+	margin-left: 50px; 
+	margin-right: 50px; 	
+}
+
+
+.rChart {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 800px;
+  height: 500px;
+} 
+ 
+ 
+.SingleSpace{line-height: 0em;}
+.DoubleSpace{line-height: 2em;}
+
+.textbox {
+    border-radius: 5px; 
+    color: #FFFFFF;
+    font-weight:bold;
+    padding:10px; 
+    border: 3px solid #990000;
+    background-color: #FF0000;
+}
+
+.form_left {
+    float:left;
 }
 </style>
 

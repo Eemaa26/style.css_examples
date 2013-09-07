@@ -27,7 +27,7 @@ folder(folder.name=file.path("C:/Users/trinker/GitHub/trinker.github.com", "styl
 loc <- file.path(getwd(), "style.css_examples")
 fls2copy <- file.path(loc, dir(loc))
 file.copy(fls2copy, 
-		  file.path("C:/Users/trinker/GitHub/trinker.github.com", "style.css_examples"), recursive=TRUE)
+    file.path("C:/Users/trinker/GitHub/trinker.github.com", "style.css_examples"), recursive=TRUE)
 
 
 

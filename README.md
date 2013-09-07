@@ -10,6 +10,6 @@ Please feel free to upload a style.css template via: <a href="mailto:reports.rpa
 To view the style template examples click below:
 
 [unstyled (default knitr)](http://trinker.github.io/style.css_examples/basic/minimal%20template.html)    
-[apa6](http://trinker.github.io/style.css_examples/apa6/minimal%20template.html)
+[apa6](http://trinker.github.io/style.css_examples/apa6/minimal%20template.html)    
 [rinker_vignette](http://trinker.github.io/style.css_examples/rinker_vignette/minimal%20template.html)
 
